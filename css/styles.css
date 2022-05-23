@@ -1,0 +1,544 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+
+.body {
+
+  
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.fixed-top
+{
+  position: absolute;
+}
+
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+  min-height: 100px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+  color: #07B0F2;
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+
+.menu {
+  color: rgb(0, 0, 0);
+}
+.menu:hover {
+  color: rgb(0, 60, 255);
+}
+
+.logo-brand {
+  min-width: 100px;
+  max-width: 500px;
+
+}
+
+.navbar-toggler {
+  font-size: 50px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.fixed{position:fixed; top:0}
+
+
+
+/* Estilos */
+.topmargin-xxs {
+  margin-top: 10px;
+}
+.topmargin-xs {
+  margin-top: 15px;
+}
+.topmargin-sm {
+  margin-top: 30px;
+}
+.topmargin-lg {
+  margin-top: 60px;
+}
+
+.tomamargin-slider {
+  margin-top: 130px;
+}
+
+.bg-darky {background-color: #1b1d1f!important;}
+
+.img_size
+{
+  width: 50%;
+}
+
+.fuente_mediana
+{
+  font-size: 25px;
+}
+
+.fuente_grande
+{
+  font-size: 25px;
+}
+
+.check
+{
+  color:rgb(58, 146, 201);
+}
+
+.box_shadow
+{
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+
+.italica
+{
+  font-style: italic;
+}
+.bold
+{
+  font-weight: bold;
+}
+
+.fuente-negra
+{
+  color: black;
+}
+
+
+.padding_menu {
+  padding-left: 30px;
+  
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.button-size
+{
+  
+  width: 300px;
+  height: 100px;
+  
+
+}
+
+.button-size2
+{
+  width: 300px;
+  height: 100px;
+}
+
+
+.hero-image {
+  background-image:  url("img/heropri.SVG");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  padding-bottom: 300px;
+}
+
+
+
+#hero2 {
+  background-size: cover;
+  padding-top: 30px;
+  min-height: 700px;
+  color: white;
+  
+}
+
+.metaverse {
+
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+
+#portafolio h2
+{
+    font-size: 48px; 
+}
+
+.segundo-titulo
+{
+    margin-bottom: 30px;
+}
+
+
+
+.portafolio-container
+{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+    border-radius: 2px;
+    z-index: auto;
+}
+
+.portafolio-details
+{
+  
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portafolio-details h2 
+{
+    margin-bottom: 0px ;
+}
+
+
+.portafolio-details a h2, .portafolio-details a p
+{
+    color:white;
+}
+.portafolio-details a:hover
+{
+    text-decoration: none;
+}
+
+.portafolio-container img
+{
+  
+  filter: blur(0px);
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container img:hover 
+{
+  
+    filter: blur(3px);
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform:scale(1.2);
+}
+
+
+
+
+
+#3cx h2 {
+  font-size: 48px;
+}
+
+.titulo-principal {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.titulo-azul
+{
+  color: #07B0F2;
+  font-weight: bold;
+}
+
+
+.fuente-vinotinto
+{
+  color: #07B0F2;
+}
+
+.fondo-blanco
+{
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #8c233f88;
+  
+}
+
+
+.border-radius
+{
+  border-radius: 20px;
+}
+
+
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+}
+
+.img-size
+{
+  width: 60%;
+}
+
+
+
+#footer
+{
+    padding: 80px 0px;
+    text-align: center;
+    color: white;
+}
+
+#footer h3
+{
+    font-size: 20px;
+}
+
+#footer a
+{
+    color: #07B0F2;
+   
+  
+}
+
+#footer a:hover
+{
+    color: white; 
+    text-decoration: none;
+}
+
+
+.list-inline .list-inline-item
+{
+    padding: 10px 15px;
+}
+
+.invertido
+{
+    filter: invert(100%);
+}
+
+#footer ion-icon
+{
+
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+  .titulo-principal {
+    font-size: 50px;
+    line-height: normal;
+  }
+
+  #hero p {
+    font-size: 15px;
+    color: white;
+  }
+
+
+
+  .logo-brand {
+   
+    min-width: 100px;
+    max-width: 200px;
+  }
+
+  
+#services h1
+{
+    font-size: 1.5rem;
+
+}
+
+
+#portafolio h2 {
+  font-size: 1.5 rem;
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+  
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .hero-image {
+    background-image:  url("img/heropri.SVG");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+  }
+
+  .titulo-principal {
+    font-size: 50px;
+    line-height: normal;
+  }
+
+
+  
+  .button-size
+{
+  
+  width: 200px;
+  height: 100px;
+  
+
+}
+
+#portafolio h2 {
+  font-size: 1.5 rem;
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+
+
+.logo-brand {
+   
+  min-width: 100px;
+  max-width: 200px;
+}
+
+
+#services h1
+{
+    font-size: 1.5rem;
+
+}
+
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+ 
+  
+  .hero-image {
+    background-image:  url("img/heropri.SVG");
+    
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+    
+  }
+
+
+ 
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+  
+  .hero-image {
+    background-image:  url("./img/heropri.SVG");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+    padding-bottom: 500px;
+  }
+
+
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .hero-image {
+    background-image:  url("img/heropri.SVG");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    padding-bottom: 500px;
+  }
+
+  
+}
+
+@media (min-width: 1200px) {
+
+  .hero-image {
+    background-image:  url("img/heropri.SVG");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 500px;
+    padding-bottom: 500px;
+  }
+
+}
